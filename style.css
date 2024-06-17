@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+section{
+    width: 500px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 1px 1px 10px gray;
+    font-family: "Karla", sans-serif;
+   
+}
+
+header{
+    padding: 30px;
+    color: hsl(204, 43%, 93%);
+}
+
+header h1{
+    margin-bottom: 16px;
+    color: hsl(179, 62%, 43%);
+    font-size: 20px;
+}
+
+header h2{
+    color: hsl(71, 73%, 54%);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: hsl(218, 22%, 67%);
+    font-size: 13px;
+}
+
+main {
+    display: flex;
+    width: 100%;
+}
+
+.container-monthly{
+    width: 50%;
+    background-color: hsl(179, 62%, 43%);
+    padding: 30px;
+    border-bottom-left-radius: 10px;
+}
+
+.container-monthly-title{
+    font-size: 15px;
+    font-weight: 600;
+    color: hsl(204, 43%, 93%);
+    margin-bottom: 10px;
+}
+
+.container-monthly p {
+    color: hsl(204, 43%, 93%);
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 180px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    font-weight: 700;
+    color: hsl(204, 43%, 93%);
+    background-color: hsl(71, 73%, 54%);
+}
+
+.container-why{
+    width: 50%;
+    background-color:  hsla(179, 62%, 43%, 0.8);
+    color: hsl(204, 43%, 93%);
+    padding: 30px;
+    border-bottom-right-radius: 10px;
+}
+
+.container-why h3{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.container-why p{
+    font-size: 14px;
+    font-weight: 200;
+}
